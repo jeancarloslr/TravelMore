@@ -114,36 +114,38 @@ main{
 
 .about-info{
     position: relative;
-    left: 70px;
-    top: -95px;
     width: 30%;
+    height: 89.4%;
     display: flex;
     flex-direction: column;
     gap: 30px;
-    padding: 30px;   
+    padding: 30px;
+   background-image: linear-gradient(to right,#1a1a1a, #8304ad);
+}
+
+.item-info{
+    position: absolute;
+    top: 200px;
+    left: 190px;
 }
 
 .about-info p{
     font-size: 1.30rem;
+    color: white;
 }
 
 #icon-bag{
     position: relative;
     top: 10px;
     font-size: 50px;
-    color: #9f0bd0;
+    color: white;
 }
 
 .about-info h1{
-    font-size: 3rem;
+    font-size: 1.8rem;
+    padding-top: 30px;
     width: 90%;
-    background: linear-gradient(to right, rgb(43, 42, 42), #9f0bd0);
-    /* Segundo passo: apagar do fundo tudo que não estiver imediatamente atrás de texto */
-   background-clip: text;
-  -webkit-background-clip: text; /* Alguns navegadores precisam do prefixo */
-  /* Terceiro passo: apagar o texto, deixando apenas o fundo atrás dele */
-  -webkit-text-fill-color: transparent;
-  /* Cor que contraste com o degradê, caso o navegador não suporte `background-clip: text` */
+    color: white;
 }
 
 .container1{
@@ -155,12 +157,15 @@ main{
 }
 
 .container-voos{
-    width: 60%;
+    position: relative;
+    left: -70px;
+    width: 70%;
     height: 80%;
     display: flex;
     flex-direction: row;
     gap: 40px;
     align-items: center;
+
 }
 
 .container-rj{
@@ -191,9 +196,27 @@ main{
     border-radius: 12px;
     filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.338));
 }
+.infos:hover{
+    cursor: pointer;
+}
 
 .infos:hover + .container-rj img {
     transform: scale(1.2); /* Aumenta o tamanho da imagem ao hover na div .infos */
+
+}
+
+.tipo-viagem{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 36.5%;
+    left: 50%;
+    width: 30%;
+    background-color: #9f0bd0;
+    border-radius: 10px;
+    padding: 4px;
+    color: white;
+    z-index: 100;
 }
 
 .content{
@@ -212,12 +235,14 @@ main{
 
 .content h2{
     font: normal 600 1.4rem 'Poppins', sans-serif;
-    padding-top: 10px;
+    padding-top: 25px;
 
 }
 
 #icon-text{
-    color: #9f0bd0;
+    color: white;
+    font-size: 20px;
+    padding-top: 2px;
 }
 
 .info-preco{

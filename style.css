@@ -6,6 +6,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+body{
+   width: 100%;
+}
+
 header.container{
     height: 70vh;
     background-image: url(img/travel.jpg);
@@ -100,53 +104,62 @@ nav{
 
 .cabecalho > h1{
     transform: translate(-50%, -60%);
-    color: #9f0bd0;
-    font-size: 3em;
+    color: white;
+    font: normal bolder 4rem 'Poppins', sans-serif;
 }
 
 main{
-    min-height: 400px;
+    width: 100%;
 }
-
-
 
 .text{
-    padding: 35px;
-    height: 250px;
-    width: 70vw;
-    margin: auto;
-    background-color: rgb(255, 254, 254);
-    color: #9f0bd0;
+    background-color: rgb(39, 35, 35);
+    width: 100%;
+    height: 100vh;
 }
 
-.text > h2{
+.text > h1{
     text-align: center;
-    padding: 10px;
-    font-size: 1.8em;
+    padding: 50px 0px 85px 0px;
+    font-size: 2rem;
+    color: white;
+}
+
+.container-porqueUsar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    margin: auto;
+    width: 80%;
+    height: 550px;
+}
+
+.porque-iten{
+    position: relative;
+    width: 30%;
+    height: 520px;
+    background-color: white;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#icons-porqueUsar{
+    top: 20%;
+    position: absolute;
+    color: #8304ad;
+    font-size: 120px;
 }
 
 
-
-.text > p{
-    padding: 15px;
-    text-align: justify;
-    text-indent: 1em;
-    font-weight: 500;
-}
-
-.imagem{
-    height: 500px;
-    background-size: cover;
-    background-attachment: fixed;
-    box-shadow: inset 0px 3px 8px black;
-    
-}
-
-#img1{
-
-    background-image: url(img/paisagem.jpg);
-    background-position: center bottom;
-
+.content-porqueUsar{
+    position: absolute;
+    top: 55%;
+    text-align: center;
+    width: 230px;
 }
 
 .about-info{
@@ -271,7 +284,6 @@ main{
 .content h2{
     font: normal 600 1.4rem 'Poppins', sans-serif;
     padding-top: 25px;
-
 }
 
 #icon-text{
@@ -299,17 +311,6 @@ main{
     font: normal 600 1.4rem 'Poppins', sans-serif;
 }
 
-#img2{
-    background-image: url(img/nycnight.jpg);
-    background-position: left top;
-    background-size: cover;
-}
-
-
-#img3{
-    background-image: url(img/snow.jpg);
-    background-position: center top;
-}
 
 footer{
     height: 50px;

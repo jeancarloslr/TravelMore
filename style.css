@@ -215,13 +215,40 @@ main{
 
 .Mundo-itens:hover .img-mundo{
     transform: scale(1.4); /* Aumenta o tamanho da imagem ao hover */
-
 }
 
-#cifrao-mundo{
+.preco-mundo{
     position: absolute;
-    bottom: 0;
+    top: 81%;
 }
+
+.cifrao-mundo{
+    position: absolute;
+    top: 93%;
+    left: 4%;
+}
+
+.preco-viagem{
+    position: absolute;
+    top: 91.8%;
+    left: 12%;
+    font: normal 600 1.4rem 'Poppins', sans-serif;
+}
+
+.time-travel{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 38%;
+    left: 3%;
+    width: 30%;
+    background-color: #9f0bd0;
+    border-radius: 10px;
+    padding: 6px;
+    color: white;
+    z-index: 100;
+}
+
 .about-info{
     position: relative;
     width: 30%;
@@ -333,6 +360,7 @@ main{
    flex-direction: column;
    justify-content: space-between;
    padding: 0px 0px 10px 10px;
+
 }
 
 .content .data{

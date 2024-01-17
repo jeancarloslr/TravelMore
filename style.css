@@ -19,16 +19,23 @@ header.container{
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.599);
 }
 
-.chat{
+.chatHelp{
+    width: 70px;
+    height: 70px;
+    background-color: #8304ad;
+    border-radius: 100%;
     position: fixed;
-    bottom: 10px;
-    right: 0px;
-    margin-right: 10px;
+    bottom: 40px;
+    right: 40px;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-#msg{
-    width: 50%;
-    height: 50%;
+#iconChatHelp{
+    font-size: 40px;
+    color: white;
 }
 
 nav{

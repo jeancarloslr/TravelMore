@@ -38,6 +38,18 @@ header.container{
     color: white;
 }
 
+.talk-message{
+    width: 30%;
+    height: 30%;
+    background-color: aqua;
+    border-radius: 15px;
+    position: fixed;
+    bottom: 200px;
+    right: 60px;
+    display: none;
+}
+
+
 nav{
     position: relative;
     display: flex;

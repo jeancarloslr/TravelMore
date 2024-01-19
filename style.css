@@ -44,21 +44,23 @@ header.container{
     color: white;
 }
 
-.talk-message{
-    width: 30%;
-    height: 30%;
+.talk-message {
+    width: 23%;
+    height: 0;
     background-color: aqua;
     border-radius: 15px;
     position: fixed;
-    bottom: 200px;
-    right: 60px;
-    display: none;
+    bottom: 150px;
+    right: 20px;
+    overflow: hidden; /* Para esconder o conteúdo que excede a altura */
     z-index: 100;
+    transition: height 300ms ease; /* Animação da altura com duração de 1 segundo e função de temporização ease */
 }
 
-.active{
-    display: block;
+.talk-message.active {
+    height: 65vh;
 }
+
 nav{
     position: relative;
     display: flex;

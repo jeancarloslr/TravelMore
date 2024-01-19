@@ -24,6 +24,7 @@ header.container{
     height: 70px;
     background-color: #8304ad;
     border-radius: 100%;
+    border: none;
     position: fixed;
     bottom: 40px;
     right: 40px;
@@ -47,9 +48,12 @@ header.container{
     bottom: 200px;
     right: 60px;
     display: none;
+    z-index: 100;
 }
 
-
+.active{
+    display: block;
+}
 nav{
     position: relative;
     display: flex;

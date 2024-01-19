@@ -1,8 +1,8 @@
 chatHelp = document.querySelector('.chatHelp');
-chat = document.querySelector('.talk-message');
 
 function ajudar(){
-    chat.classList.toggle('active')
+    chat = document.querySelector('.talk-message');
+    chat.classList.toggle('active');
     console.log("jean")
 }
 

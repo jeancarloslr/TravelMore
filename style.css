@@ -124,7 +124,6 @@ header.container{
 #text-user::placeholder{
     color: #8304ad71;
     font: normal 500 1rem 'Poppins', sans-serif;
-
 }
 
 .talk-message.active {
@@ -513,15 +512,7 @@ main{
 
 
 footer{
-    height: 50px;
-    background-color: rgb(20, 19, 19);
-}
-
-footer > p{
-
-    color: white;
-    font-size: 1.1em;
-    text-align: center;
-    padding: 5px 0px 5px 0px;
-
+    height: 40vh;
+    background-color: rgb(30, 29, 29);
+    
 }

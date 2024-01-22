@@ -7,3 +7,4 @@ function ajudar(){
 }
 
 chatHelp.addEventListener('click', ajudar);
+

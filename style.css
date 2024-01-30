@@ -537,6 +537,17 @@ footer{
     gap: 100px;
 }
 
+.redes{
+    padding: 15px 0px 0px 0px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.redes:hover img{
+    color: #aa42cd;
+}
+
 .linha--footer{
     background-color: #8304ad7c;
     height: 1px;
@@ -546,5 +557,37 @@ footer{
 
 .titulo-footer{
     font: normal 600 1.5rem 'Poppins', sans-serif;
+    color: white;
+}
+
+.contact{
+    width: 40%;
+    height: 22%;
+    border-radius: 20px;
+    border: 1px solid white;
+    background-color: rgb(46, 45, 45);
+    color: white;
+    margin-top: 15px;
+    transition: .6s;
+}
+
+.contact:hover{
+    background-color: #25d366;
+    border: none;
+    cursor: pointer;
+}
+
+.primaria{
+    width: 56%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
     color: white;
 }

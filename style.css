@@ -14,7 +14,7 @@ header.container{
     height: 100vh;
     background-repeat: no-repeat;
     background-position: center center;
-    background-image: url('img/quino-al-mBQIfKlvowM-unsplash.jpg');
+    background-image: url('img/banner-home.jpg');
     background-size: cover;
     position: relative;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.599);
@@ -47,7 +47,6 @@ header.container{
     width: 35%;
     height: 50px;
     border-radius: 25px;
-    background-color: ;
     border: 2px solid white;
     display: flex;
     align-items: center;
@@ -181,7 +180,6 @@ nav{
     height: 5%;
     background: rgba(255, 255, 255, 0); /* Cor de fundo com transparência */
     backdrop-filter: blur(20px);
-    profundidade */
     border-radius: 10px;
     z-index: 1000;
 }

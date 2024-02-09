@@ -14,9 +14,47 @@ header.container{
     height: 100vh;
     background-repeat: no-repeat;
     background-position: center center;
+    background-image: url('img/quino-al-mBQIfKlvowM-unsplash.jpg');
     background-size: cover;
     position: relative;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.599);
+    display: flex;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: center;
+    width: 40%;
+    margin: auto;
+    padding: 0;
+}
+
+.cabecalho h1{
+    font: normal bolder 4rem 'Poppins', sans-serif;
+    color: white;
+}
+
+.cabecalho p{
+    font: normal lighter 1rem 'Poppins', sans-serif;
+    width: 70%;
+    text-align: center;
+    color: white;
+}
+
+.btn-banner{
+    width: 35%;
+    height: 50px;
+    border-radius: 25px;
+    background-color: ;
+    border: 2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font: normal bolder 1rem 'Poppins', sans-serif;
+    padding: 5px 20px;
+    margin-top: 20px;
 }
 
 .chatHelp{
@@ -132,7 +170,7 @@ header.container{
 
 
 nav{
-    position: relative;
+    position: absolute;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -141,13 +179,16 @@ nav{
     position: fixed;
     width: 100%;
     height: 5%;
-    background-color: white;
+    background: rgba(255, 255, 255, 0); /* Cor de fundo com transparência */
+    backdrop-filter: blur(20px);
+    profundidade */
+    border-radius: 10px;
     z-index: 1000;
 }
 
 #logo{
     font: normal bold 1.5rem 'Poppins', sans-serif;
-    color: #9f0bd0;
+    color: #0a090a;
 }
 
 .recursos{
@@ -163,7 +204,7 @@ nav{
     width: 100%;
     text-decoration: none;
     font: normal 500 1.1rem 'Poppins';
-    color: rgb(73, 72, 72);
+    color: rgb(254, 251, 251);
 }
 
 .recursos a::after{
@@ -191,21 +232,10 @@ nav{
     gap: 10px;
     font: normal lighter 1.1rem 'Poppins', sans-serif;
     text-decoration: none;
-    color: rgb(73, 72, 72);
+    color: rgb(255, 255, 255);
 }
+ 
 
-.cabecalho{
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    
-}   
-
-.cabecalho > h1{
-    transform: translate(-50%, -60%);
-    color: white;
-    font: normal bolder 4rem 'Poppins', sans-serif;
-}
 
 main{
     width: 100%;

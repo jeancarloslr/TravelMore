@@ -14,7 +14,7 @@ header.container{
     height: 100vh;
     background-repeat: no-repeat;
     background-position: center center;
-    background-image: url('img/banner-home.jpg');
+    background-image: url('img/beach.jpg');
     background-size: cover;
     position: relative;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.599);
@@ -37,7 +37,7 @@ header.container{
 }
 
 .cabecalho p{
-    font: normal lighter 1rem 'Poppins', sans-serif;
+    font: normal 500 1rem 'Poppins', sans-serif;
     width: 70%;
     text-align: center;
     color: white;
@@ -54,6 +54,14 @@ header.container{
     font: normal bolder 1rem 'Poppins', sans-serif;
     padding: 5px 20px;
     margin-top: 20px;
+    transition-duration: .4s;
+}
+
+.btn-banner:hover{
+    transform: translateY(-6px);
+    background-color: #8304ad;
+    color: white;
+    border: none;
 }
 
 .chatHelp{
@@ -167,7 +175,6 @@ header.container{
     height: 68vh;
 }
 
-
 nav{
     position: absolute;
     display: flex;
@@ -185,8 +192,8 @@ nav{
 }
 
 #logo{
-    font: normal bold 1.5rem 'Poppins', sans-serif;
-    color: #0a090a;
+    font: normal bold 1.8rem 'Poppins', sans-serif;
+    color: #8304ad;
 }
 
 .recursos{
@@ -201,7 +208,7 @@ nav{
     gap: 7px;
     width: 100%;
     text-decoration: none;
-    font: normal 500 1.1rem 'Poppins';
+    font: normal 500 1.2rem 'Poppins';
     color: rgb(254, 251, 251);
 }
 
@@ -228,7 +235,7 @@ nav{
     display: flex;
     justify-content: center;
     gap: 10px;
-    font: normal lighter 1.1rem 'Poppins', sans-serif;
+    font: normal lighter 1.2rem 'Poppins', sans-serif;
     text-decoration: none;
     color: rgb(255, 255, 255);
 }

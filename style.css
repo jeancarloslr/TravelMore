@@ -32,12 +32,12 @@ header.container{
 }
 
 .cabecalho h1{
-    font: normal bolder 4rem 'Poppins', sans-serif;
+    font: normal bolder 4.5rem 'Poppins', sans-serif;
     color: white;
 }
 
 .cabecalho p{
-    font: normal 500 1rem 'Poppins', sans-serif;
+    font: normal 500 1.2rem 'Poppins', sans-serif;
     width: 70%;
     text-align: center;
     color: white;
@@ -193,7 +193,7 @@ nav{
 
 #logo{
     font: normal bold 1.8rem 'Poppins', sans-serif;
-    color: #8304ad;
+    color: #000000;
 }
 
 .recursos{

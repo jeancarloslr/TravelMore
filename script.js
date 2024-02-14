@@ -1,7 +1,7 @@
 chatHelp = document.querySelector('.chatHelp');
 var navbar = document.querySelector('nav');
 var bannerHeight = document.querySelector('.container').offsetHeight;
-var recursosNav = document.querySelector('.linksNav');
+var recursosNav = document.querySelectorAll('.linksNav');
 
 function ajudar(){
     chat = document.querySelector('.talk-message');
@@ -13,9 +13,14 @@ chatHelp.addEventListener('click', ajudar);
     window.addEventListener('scroll', function () {
       if (window.scrollY >= bannerHeight) {
         navbar.classList.add('scrolled');
-        recursosNav.style.color = "black";
+        recursosNav.forEach(function (link){
+          link.style.color = "black"
+        });
       } else {
         navbar.classList.remove('scrolled');
+        recursosNav.forEach(function (link){
+          link.style.color = "white";
+        })
       }
     });
   

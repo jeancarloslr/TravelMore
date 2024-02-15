@@ -13,8 +13,8 @@ body{
 header.container{
     height: 100vh;
     background-repeat: no-repeat;
-    background-position: center center;
-    background-image: url('img/beach.jpg');
+    background-position: center bottom;
+    background-image: url('img/banner.jpg');
     background-size: cover;
     position: relative;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.599);
@@ -199,7 +199,7 @@ nav{
 
 #logo{
     font: normal bold 1.8rem 'Poppins', sans-serif;
-    color: #000000;
+    color: white;
 }
 
 .recursos{

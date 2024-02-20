@@ -192,6 +192,10 @@ nav{
     transition: .4s ease;
 }
 
+.hamburguer{
+    display: none;
+}
+
 .scrolled{
     background-color: white;
     color: black;
@@ -631,4 +635,8 @@ footer{
     flex-direction: column;
     width: 100%;
     color: white;
+}
+
+@media (max-width: 768px) {
+
 }

@@ -1,3 +1,4 @@
 # TravelMore
 Agência de viagens.
-Em desenvolvimento.
+
+-Ainda não está responsivo.

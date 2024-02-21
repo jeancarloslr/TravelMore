@@ -552,6 +552,10 @@ main{
     font: normal 600 1.4rem 'Poppins', sans-serif;
 }
 
+.cifrao, .preco{
+    top: 350px;
+}
+
 
 footer{
     height: 40vh;

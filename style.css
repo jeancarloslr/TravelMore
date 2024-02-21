@@ -196,6 +196,14 @@ nav{
     display: none;
 }
 
+.bar{
+    height: 3px;
+    width: 30px;
+    background-color: red;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
 .scrolled{
     background-color: white;
     color: black;
@@ -638,5 +646,9 @@ footer{
 }
 
 @media (max-width: 768px) {
+    .hamburguer{
+        display: block;
+    }
 
+    
 }

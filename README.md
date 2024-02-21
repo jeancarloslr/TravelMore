@@ -1,4 +1,3 @@
 # TravelMore
-Agência de viagens.
-
--Ainda não está responsivo.
+<img src="TravelMore.png" width="600px" height="350px"></img>
+<p>❌ Ainda não está responsivo</p>

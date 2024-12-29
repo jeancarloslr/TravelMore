@@ -317,7 +317,7 @@ main{
 .viagens-internacionais{
     width: 100%;
     height: 87vh;
-    animation: fadeIn 1000ms ease-in-out
+    animation: fadeIn 2000ms ease-in-out;
 }
 
 .viagens-internacionais h1{

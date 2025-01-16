@@ -554,35 +554,33 @@ main{
     font: normal 600 1.4rem 'Poppins', sans-serif;
 }
 
-
 .ConhecaBrasil-Container{
-    height: 70vh;
-    width: 100%;
+    height: 85vh;
 }
 
-.ConhecaBrasil-Container > h1{
-   text-align: center;
-   font:normal 600 2.4rem 'Poppins', sans-serif;
-   color: #8304ad;
-   padding-top: 60px;
-}
+/*CARROSEL SWIPER.JS*/
+.swiper {
+    width: 60%;
+    height: 70%;
+  }
 
-.Container-lugares{
+  .swiper-wrapper{
     display: flex;
     flex-direction: row;
-    gap: 10px;
-    width: 75%;
-    height: 60%;
-    margin: auto;
-    border: solid 2px #8304ad;
-    border-radius: 12px;
-}
+    justify-content: center;
+    gap: 20px;
+  }
 
-.Container-lugares > .lugar-iten{
-    width: 25%;
+  .swiper-slide{
+    position: relative;
+  }
+
+  .img-brasil{
+    position: absolute;
+    object-fit: contain;
+    width: 100%;
     height: 100%;
-    background-color: black;
-}
+  }
 
 footer{
     height: 40vh;

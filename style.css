@@ -575,6 +575,10 @@ main{
     position: relative;
   }
 
+  .swiper-button-prev, .swiper-button-next{
+  
+  }
+
   .img-brasil{
     position: absolute;
     object-fit: contain;

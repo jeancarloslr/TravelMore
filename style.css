@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@400;500;700&display=swap');
 
+:root{
+    --swiper-theme-color: #8304ad;
+
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -567,9 +572,10 @@ main{
 
 /*CARROSEL SWIPER.JS*/
 .swiper {
-    width: 60%;
-    height: 50%;
+    width: 64%;
+    height: 55%;
     margin: auto;
+
   }
 
   .swiper-wrapper{
@@ -581,7 +587,8 @@ main{
 
   .swiper-slide{
     border-radius: 12px;
-    height: 200px;
+    height: 220px;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.4);
   }
 
   
@@ -592,21 +599,32 @@ main{
     border-radius: 12px;
   }
 
-  .swiper-button-prev,
+
+  .swiper-button-prev{
+    left: 3px;
+  }
+
   .swiper-button-next{
-    background-color: #8304ad;
-    width: 33px;
-    height: 33px;
-    border-radius: 100%;
+    right: 3px;
   }
 
   .swiper-button-prev::after{
+    content: '\f053';
+    font-family: 'Font Awesome 5 free';
+    font-weight: 900;
+    font-size: 14px;
+    color: #8304ad;
+  }
+
+  .swiper-button-next::after{
     content: '\f054';
     font-family: 'Font Awesome 5 free';
     font-weight: 900;
-    font-size: 20px;
-
+    font-size: 14px;
+    color: #8304ad;
   }
+
+
 footer{
     height: 40vh;
     background-color: rgb(30, 29, 29);

@@ -31,11 +31,9 @@ const swiper = new Swiper('.swiper', {
       }
     },
 
-    /*
-    effect: 'flip',
-    flipEffect: {
-      slideShadows: false,
+    autoplay: {
+      delay: 1000,
     },
-    */
+
   
 });

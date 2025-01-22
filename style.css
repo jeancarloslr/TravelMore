@@ -210,7 +210,6 @@ nav{
 .bar{
     height: 3px;
     width: 30px;
-    background-color: red;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
@@ -241,7 +240,7 @@ nav{
     color: rgb(254, 251, 251);
 }
 
-.recursos a::after{
+.linksNav::after{
     content: ""; /* Conteúdo vazio necessário para a pseudo-elemento ::after */
     display: block; /* Tornar o pseudo-elemento um bloco para ocupar toda a largura */
     height: 2px; /* Altura do sublinhado */
@@ -253,8 +252,8 @@ nav{
     transition: width 0.3s; /* Adicionar transição à largura para criar o efeito de animação */
 }
 
-.recursos a:hover::after{
-    width: 100%;
+#passagem:hover::after{
+    width: 118px;
 }
 
 
@@ -325,6 +324,7 @@ main{
     width: 100%;
     height: 87vh;
     animation: fadeIn 2000ms ease-in-out;
+    padding-top: 30px;
 }
 
 .viagens-internacionais h1{
@@ -452,6 +452,7 @@ main{
     align-items: center;
     gap: 120px;
     height: 70vh;
+    padding-top: 70px;
 }
 .container-voos{
     position: relative;

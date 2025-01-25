@@ -710,3 +710,46 @@ footer{
 
     
 }
+
+
+/*RESPONSIVIDADE MOBILE*/
+@media (max-width: 800px){
+
+    *{
+        margin: 0;
+    }
+    body{
+        width: 90vw;
+    }
+
+    .container{
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .container-mundo{
+        width: 50px;
+    }
+
+    nav{
+        display: none;
+        width: 0px;
+    }
+
+    .viagens-internacionais, .container1, footer{
+        width: 100vw;
+        background-color: red;
+    }
+
+    .about-info{
+        width: 5px;
+    }
+
+    .container-voos{
+        width: 50px;
+    }
+
+    .linha--footer{
+        width: 1px;
+    }
+}
